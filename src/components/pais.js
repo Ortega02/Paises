@@ -17,7 +17,6 @@ useEffect(() => {
       setnombre(e.nome.abreviado);
       setcapital(e.governo.capital.nome);
       setregion(e.localizacao.regiao.nome);
-     // setimagen('https://www.banderas-mundo.es/data/flags/w702/'+e.id['ISO-3166-1-ALPHA-2'].toLowerCase()+'.png');
       console.log(imagen);
       Object.values(e.linguas).map(l=>{
         lengua.push(l.nome)
