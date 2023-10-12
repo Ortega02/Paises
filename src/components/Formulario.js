@@ -13,6 +13,7 @@ const Formulario = ({busqueda, guardarbusqueda, guardarconsultar}) => {
   const {pais} = busqueda
 
   const consultarPais = () => {
+    console.log(pais);
     if(pais.trim() === "") {
       mostrarAlerta();
       return;
